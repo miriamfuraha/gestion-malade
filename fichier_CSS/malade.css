@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+body header h1 {
+    color: black;
+    font-size: 4em;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background: white;
+}
+
+body header h1 span {
+    font-size: 0.5em;
+    border: none;
+}
+
+body header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body header nav a {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.438);
+    padding: 15px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 1px 1px 3px green;
+    border-radius: 3px 6px;
+    font-weight: 900;
+}
+
+body header nav a:hover {
+    background-color: blue;
+    transition: all 0.5s;
+}
+
+body header nav .online {
+    background: none;
+    color: green;
+}
+
+body header nav .online:hover {
+    background: none;
+}
+
+body main {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+body main .gauche {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+body main .gauche form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body main .gauche form .gp {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+body main .gauche form .gp .item {
+    width: 50%;
+}
+
+body main .gauche form .gp .item input,
+select {
+    width: 96%;
+    margin: 5px;
+    padding: 5px 0;
+}
+
+body main .gauche form .gp .item label {
+    margin: 5px;
+    color: black;
+}
+
+body main .gauche form .btn {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 98%;
+}
+
+body main .gauche form .btn button {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1em;
+}
+
+body main .gauche form .btn button:hover {
+    background: green;
+    transition: all 0.5s;
+    color: white;
+}
+
+body main .droite {
+    width: 57%;
+    margin-left: 10px;
+}
+
+body main .droite form input {
+    padding: 7px;
+    width: 500px;
+    border: 1px solid blue;
+    border-radius: 6px 4px;
+}
+
+body main .droite form button {
+    padding: 5px 15px;
+    margin: 5px;
+    display: inline-block;
+    background: green;
+    color: white;
+    border: none;
+}
+
+body main .droite table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body main .droite table thead {
+    background: rgba(0, 0, 0, 0.178);
+}
+
+body main .droite table thead tr th {
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+body main .droite table tbody tr {
+    background: rgba(128, 128, 128, 0.26);
+    text-align: center;
+}
+
+body main .droite table tbody tr:nth-child(even) {
+    background: white;
+}
+
+body main .droite table tbody tr td {
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    padding: 10px 2px;
+}
+
+body main .droite .table {
+    height: 400px;
+    overflow: auto;
+}
+
+.im {
+    padding: 5px 15px;
+    margin: 5px;
+    display: inline-block;
+    background: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+    background: white;
+    right: 10%;
+    width: 500px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.btns button {
+    margin: 10px;
+    padding: 5px;
+}
+
+* a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
+* a:hover {
+    background: red;
+    color: white;
+}
+
+
+/*  
+facture css toggle
+*/
+
+main {
+    position: relative;
+}
+
+.facture {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    padding: 20px;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 3px 6px;
+}
+
+.facture form select {
+    background: transparent;
+    border: none;
+    border: 1px solid gray;
+}
+
+.facture form button {
+    padding: 5px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.408);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.facture form a {
+    text-decoration: none;
+}
+textarea{
+    height: 150px;
+    width: 250px;
+    resize: none;
+    margin:5px;
+}
